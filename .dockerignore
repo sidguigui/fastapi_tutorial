@@ -1,0 +1,31 @@
+# Ignorar o ambiente virtual
+.venv/
+
+# Ignorar arquivos gerados pelo sistema operacional
+.DS_Store
+Thumbs.db
+
+# Ignorar arquivos de configuração do editor/IDE
+.vscode/
+.idea/
+
+# Ignorar arquivos de cache do Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignorar diretórios de cobertura de testes
+htmlcov/
+.coverage
+*.coverage
+
+# Ignorar logs e outros artefatos
+*.log
+*.tmp
+
+# Ignorar build local
+dist/
+build/
+
+# Ignorar arquivos temporários do Docker
+docker-compose.override.yml
